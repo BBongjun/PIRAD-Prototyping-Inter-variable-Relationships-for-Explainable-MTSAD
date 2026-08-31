@@ -16,7 +16,7 @@ from data_module.PSM import PSMDataModule
 from data_module.SMAP_MSL import NASADataModule
 
 # 새 모델/학습/평가
-from model.sarad_mem import SARADProto      # ← 새로 만든 파일/클래스
+from model.pirad import SARADProto      # ← 새로 만든 파일/클래스
 from train import train                       # ← 앞서 만들어 준 2-stage train()
 # from eval import compute_norm_stats, evaluate, evaluate_and_save # ← 엔트로피+JS 기반 eval 유틸
 from eval import compute_norm_stats, evaluate, evaluate_and_save_proto
